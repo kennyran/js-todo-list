@@ -3,6 +3,8 @@ body {
     background-color: #bdc3c7;
     color: white;
     font-family: Helvetica, Arial;
+    margin: auto;
+    width: 50%;
 }
 
 #add {
