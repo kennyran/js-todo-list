@@ -1,12 +1,12 @@
 body {
     text-align: center;
-    background-color: teal;
+    background-color: #bdc3c7;
     color: white;
     font-family: Helvetica, Arial;
 }
 
 #add {
-    background-color: red;
+    background-color: #C43B43;
     border: 0;
     color: white;
     padding: 10px 10px;
@@ -16,19 +16,18 @@ body {
 }
 
 .remove {
-    margin-top: 13px;
-    background-color: yellow;
+    background-color: #C7C1BD;
     float: right;
     clear: both;
     padding-right: 20px;
     border-radius: 5px;
 }
 
-#wrapper {
+#container {
     width: 450px;
-    background-color: #000365;
-    margin-top: 120px;
-    margin-left: 295px;
+    background-color: #A1AAB0;
+    margin: auto;
+    margin-top: 150px;
     padding: 30px 65px 30px 50px;
     border-radius: 25px;
 }
@@ -37,6 +36,13 @@ ul {
     list-style: none;
     text-align: left;
     line-height: 35px;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 #task {

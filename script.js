@@ -40,7 +40,7 @@ function show() {
 
     var html = '<ul>';
     for(var i=0; i<todos.length; i++) {
-        html += '<li>' + todos[i] + '<button class="remove" id ="' + i + '">Delete</button> </li>';
+        html += '<li>' + todos[i] + '<button class="remove" id ="' + i + '">Delete</button> </li><hr></hr>';
     };
     html += '</ul>'; // ^ gave a button to each of the list items to remove the task once done
 
